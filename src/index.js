@@ -10,6 +10,9 @@ xhReq.open("GET", dataUrl, false);
 xhReq.send(null);
 if(xhReq.status !== 200) alert('Error when reading data');
 var jsonData = JSON.parse(xhReq.responseText);
+jsonData.quotes =  jsonData.quotes.filter((e) => {
+  return e.author != 'Dalai Lama';
+});
 
 
 var getRandomInt = function(min, max) {
