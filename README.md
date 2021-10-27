@@ -2,6 +2,8 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+This app is published on [https://zhongxiuzhang.github.io/random_quote_machine/](https://zhongxiuzhang.github.io/random_quote_machine/).
+
 ## Available Scripts
 
 In the project directory, you can run:
